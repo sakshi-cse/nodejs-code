@@ -1,4 +1,4 @@
-- hosts: 13.127.183.100 
+- hosts: host
   become: yes
   tasks:
     - name: copy built files to deploy-server
